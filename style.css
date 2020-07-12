@@ -1,0 +1,398 @@
+body {
+  padding: 0;
+  margin: 0;
+    background-color: green;
+    height: 100%;
+    width: 100%;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+    text-align: right;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #6ab446;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-brand .nav-link{
+    color: #fff;
+  cursor: pointer;
+}
+.nav-link{  
+margin-right: 1em !important;
+}
+.navbar-collapse{
+  justify-content: flex-end;
+    text-align: end;
+}
+
+
+header {
+  background-image: url('https://images.cdn.circlesix.co/image/2/1200/700/5/uploads/media/2019-02/15/61f89bec44f5d5a1/bentayga-speed-5.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+}
+.overlay{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    left: 0;
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+.description h1 {
+  color: #6ab446;
+}
+.description p {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.description button {
+  border:1px solid #6ab446;
+  background:#6ab446;
+  border-radius: 0;
+  color:#fff;
+    text-decoration: none;
+}
+.description a:hover{
+    text-decoration: none;
+}
+
+@media (max-width:575.96px){
+
+  .description{
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 10%;
+    transform: none;
+    text-align: center;
+  }
+  .description h1{
+    font-size: 2em;
+
+  }
+  .description p{
+    font-size: 1.2rem;
+  }
+  .features{
+    margin: 0;
+  }
+}
+
+
+
+
+
+
+ .card {
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 0;
+  text-align: center;
+  font-family: arial;
+    
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.page-footer{
+    background-color:#333;
+    color: #6ab446;
+    padding: 60px 0 30px;
+    
+}
+
+.footer-copyright{
+    text-align: center;
+    margin-top: 1px;
+    color: #6ab446;
+    
+}
+
+.footer-copyright a i{
+  font-size: 20px;
+  color: #fff;
+  padding:10px 12px;
+
+}
+
+hr{
+    display: block;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    margin-left: auto
+}
+
+
+
+/*****************************************************************/
+
+p{
+  color:#999;
+  line-break: 25px;
+
+}
+h4{
+  color:#fff;
+
+}
+.footer-top{
+  background: #111;
+  padding: 80px 0;
+}
+
+ .segment-one h4{
+   font-family: courgette;
+   color: #fff;
+   letter-spacing: 3px;
+   margin:10px 0;
+
+ }
+.segment-two h4{
+  text-transform: uppercase;
+  color: #fff;
+  font-family: poppings;
+
+}
+.segment-two h4::before{
+  content: '|';
+  color: #c65039;
+  padding-right: 10px;
+}
+.segment-two ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.segment-two ul li{
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  line-height: 40px;
+}
+.segment-two ul li a{
+  color: #999;
+  
+}
+.segment-three h4{
+  color:#fff;
+  font-family: poppings;
+  text-transform: uppercase;
+}
+.segment-three h4::before{
+  content: '|';
+  color: #c65039;
+  padding-right: 10px;
+
+}
+.segment-three a{
+  background: #494848;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.segment-three a i{
+  font-size: 20px;
+  color: #fff;
+  padding:10px 12px;
+
+}
+.segment-four h4{
+  color: #fff;
+  font-family: poppins;
+  text-transform: uppercase;
+
+}
+.segment-four h2::before{
+  content: '|';
+  color: #c65039;
+  padding-right: 10px;
+
+}
+.segment-four form input[type=submit]{
+  background: #c65039;
+  border: none;
+  padding:3px 15px;
+  margin-left: -5px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.footer-bottom-text{
+  text-align: center;
+  background: #000;
+  line-height: 75px;
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+  .md-mb-30{
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width:767px){
+ .sm-mb-30{
+   margin-bottom: 30px;
+ }
+
+ .footer-top{
+  padding: 50px 0; 
+} 
+}
+header footer{
+  margin: 0 1.5% 24px 1.5%;
+}
+
+.responsive{
+  width: 100%;
+  height: auto;
+
+}
+
+
+
+
+
+
+
+
+/*************************************checkout************************************************/
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color:#6ab446;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #6ab446;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+/******************************************************contact********************************/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.page-head{
+  color:#6ab446;
+}
